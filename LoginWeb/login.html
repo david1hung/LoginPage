@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+<head> 
+<title> Symantec EndPoint Protection </title>
+
+<link	rel="stylesheet" 
+	type="text/css"
+	href="style.css">
+
+</head>
+
+<body>
+<div align="center">
+  <div id="header">
+	<table class=headertable >
+ 		 <tr>
+  			<td width=15% height="100"><center><img src="logo.png" width="63" height="63" /></center> </td>
+
+    		<td width="90%">
+    		<p class="titleFont"> Symantec Endpoint Protection Manager </p>
+    		<p class="versionFont"> Version: 13.x.x.x </p>
+    		</font>
+			</td>
+  		</tr>
+	</table>
+    <!-- end #header -->
+  </div>
+  
+  <div id="middle">
+	<table class = table1>
+  	<tr>
+  		<td class = "td1">
+  		<br>
+  		<p class="largeFont"> Welcome to the<br>Symantec Endpoint Protection<br>Manager </p>
+  		 
+  		<p class="normalFont"> <a href = "login.html"> Forgot your password? </a> </p>
+  		</td>
+  		
+  		
+  		<td class="td2">
+  		
+  		<form action="login.html">
+  		<br> <br>
+    	<label for="language"> Language </label> <br>
+          	<SELECT NAME = "Language">
+         	<OPTION SELECTED tabindex = "5"> English
+          	<OPTION> French
+          	<OPTION> Mandarin
+         	<OPTION> Spanish
+          	</SELECT> <br> 
+          
+          	<label for="username"> Username </label> <br>
+          	<input name="username" type="text" id="username" tabindex="10" size=20% maxlength="50" /> <br> 
+       		
+       		<label for="password"> Password <label> <br>
+         	<input name="password" type="password" id="password" tabindex="20" size=20%" maxlength="50" /><br>
+         
+         	<label for="domain"> Domain </label> <br>
+          	<input name="domain" type="text" id="domain" tabindex="30" size=30% maxlength="50" />  <br>
+          	
+    
+           <input type="submit" name="Logon" id="Logon" value="Logon" tabindex="40" />  
+        <a href ="login.html" >
+        	<input type="submit" name="Clear" id="Clear" value="Clear" tabindex="50" />
+        </a>
+			<input type="submit" name="Option" id="Option" value="Option" tabindex="60" /> 
+        
+        <br>
+        <input type="checkbox" /> 
+        <label for="rememberMe" class = "normalFont" > Remember me on this computer </label>
+        
+    	</form>
+        
+        <br>
+        <br>
+        <div class="error">Login failed. <br> Please enter both your username and password.</div>
+        
+        </td>
+		
+	</tr>
+	</table>
+	
+	</div>
+	
+	
+	
+	<div id="footer">
+		 &nbsp &nbsp Copyright 1998-2007 Symantec Corporation. All rights reserved. 
+	</div>
+
+</div>
+</body>
+
+
+</html>
